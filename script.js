@@ -120,7 +120,7 @@ function calculateGrade() {
     }
     
     if (pointsObtained > maxPoints) {
-        showResult('Error', 'hey uhm you cant do that if ur tired i understand but focus you dont want wrong grades do you now?', false);
+        showResult('Error', 'hey uhm you cant do that, if ur tired i understand but focus you dont want wrong grades do you now?', false);
         return;
     }
     
