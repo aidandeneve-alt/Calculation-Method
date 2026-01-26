@@ -119,6 +119,11 @@ function calculateGrade() {
         return;
     }
     
+    if (pointsObtained > maxPoints) {
+        showResult('Error', 'hey uhm you cant do that if ur tired i understand but focus you dont want wrong grades do you now?', false);
+        return;
+    }
+    
     let result;
     
     if (method === 'custom') {
